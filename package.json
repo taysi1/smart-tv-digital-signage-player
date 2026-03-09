@@ -1,0 +1,27 @@
+{
+  "name": "smart-tv-player-dev",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --outfile=dist/app.js --target=es2017 --format=iife --platform=browser",
+    "watch": "esbuild src/index.ts --bundle --outfile=dist/app.js --target=es2017 --format=iife --platform=browser --watch"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "@babel/preset-typescript": "^7.27.1",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mqtt": "^5.15.0"
+  },
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

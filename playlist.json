@@ -1,0 +1,23 @@
+{
+  "version": "1.0.4",
+  "hash": "playlist-hash-v104",
+  "items": [
+    {
+      "id": "img-1",
+      "type": "image",
+      "url": "./assets/image1.jpg",
+      "duration": 3000
+    },
+    {
+      "id": "img-2",
+      "type": "image",
+      "url": "./assets/image2.jpg",
+      "duration": 3000
+    },
+    {
+      "id": "video-1",
+      "type": "video",
+      "url": "./assets/video1.mp4"
+    }
+  ]
+}
