@@ -139,7 +139,7 @@ src/
 
 Install the following through **Tizen Studio Package Manager**:
 
-- **TV Extensions-<version>**
+- **TV Extensions**
 - **Samsung Certificate Extension**
 - **TV Emulator**
 
